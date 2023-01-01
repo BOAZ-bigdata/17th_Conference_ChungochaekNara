@@ -10,4 +10,3 @@ consumer = KafkaConsumer(
 
 for message in consumer:
     msg = json.loads(message.value)
-    
