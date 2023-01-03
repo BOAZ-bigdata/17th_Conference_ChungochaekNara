@@ -1,12 +1,12 @@
-from elasticsearch import Elasticsearch
 from kafka import KafkaConsumer
 import json
 
 consumer = KafkaConsumer(
-    'twitter_topic',
-     bootstrap_server=['localhost:9092'],
-     value_serializer = lambda v: json.dumps(v).encode("utf-8")
+    'twitter_tweet',
+    group_id='logstash',
+    bootstrap_servers=['localhost:9092'],
 )
-
 for message in consumer:
-    msg = json.loads(message.value)
+    msg = json.loads(message.value.decode('utf-8'))
+    print(msg)
+
