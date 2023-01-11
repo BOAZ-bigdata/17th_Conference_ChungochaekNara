@@ -10,7 +10,7 @@ config.read('config.ini')
 UPSERT_DELAY_INTERVAL_SECOND = int(config['DEFAULT']['UPSERT_DELAY_INTERVAL_SECOND'])
 UPSERT_BATCH_SIZE = int(config['DEFAULT']['UPSERT_BATCH_SIZE'])
 USER_FIND_INTERVAL_SECOND = int(config['DEFAULT']['USER_FIND_INTERVAL_SECOND'])
-ES_URL = config['DEFALUT']['ES_URL']
+ES_URL = config['DEFAULT']['ES_URL']
 
 def upsert_bulk_to_es(data: List[dict], index_name:str, upsert_delay_interval: int, upsert_batch_size: int):
     from elasticsearch import helpers

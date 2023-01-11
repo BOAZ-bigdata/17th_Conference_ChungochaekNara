@@ -3,7 +3,7 @@ from kafka import KafkaConsumer
 import json
 
 consumer = KafkaConsumer(
-    'test',
+    'twitter_topic',
      bootstrap_servers=['localhost:9092'],
 )
 for message in consumer:
