@@ -15,7 +15,7 @@ class DataUpdator:
                 "delivery_time": random.randint(20, 60)
             }
 
-            time.sleep(random.randint(1, 3))
+            # time.sleep(random.randint(1, 3))
 
             producer.send("test", value=update_data)
 

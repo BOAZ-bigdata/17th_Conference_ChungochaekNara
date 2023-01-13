@@ -17,7 +17,7 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 
 """API ACCESS KEYS"""
-BEARER_TOKEN = config['tweeter_auth']['bearer_token']
+BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAOoJjwEAAAAAv3PKcI3y5Ydn2YfEa2xzerXcVLQ%3DjkxLCPi0Wg5Vp6566FS9s6hf66VyjcBOuTltaKfWU25UQ5hUpu"
 
 class TwitterStream(tweepy.StreamingClient):
     def on_data(self, raw_data):
@@ -37,7 +37,8 @@ producer = KafkaProducer(bootstrap_servers=['localhost:9092'],
 client = TwitterStream(BEARER_TOKEN)
 
 # 스트림 규칙 추가
-client.add_rules(tweepy.StreamRule(value="covid-19"))
+client.add_rules(tweepy.StreamRule(value="covid19"))
+# client.add_rules(tweepy.StreamRule(lang="ko"))
 
 # 스트림 시작
 client.filter()

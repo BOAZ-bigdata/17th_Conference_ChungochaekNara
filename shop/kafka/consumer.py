@@ -6,7 +6,7 @@ import configparser
 config = configparser.ConfigParser()
 config.read('config.ini')
 
-ES_URL = config['DEFAULT']['ES_URL']
+ES_URL = "http://localhost:9200"
 
 def updated_by_query(index, shop_id, delivery_time):
     es = Elasticsearch(ES_URL)
@@ -28,10 +28,13 @@ def updated_by_query(index, shop_id, delivery_time):
 
 consumer = KafkaConsumer(
     'test',
+    # 'twitter_topic',
      bootstrap_servers=['localhost:9092'],
 )
 for message in consumer:
     msg = json.loads(message.value.decode('utf-8'))
+    print(msg)
     shop_id = msg['shop_id']
     delivery_time = msg['delivery_time']
     updated_by_query('shop', shop_id, delivery_time)
+

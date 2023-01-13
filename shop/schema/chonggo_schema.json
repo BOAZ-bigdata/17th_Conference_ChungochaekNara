@@ -1,0 +1,560 @@
+[
+  {
+    "book_id":155555,
+    "title": "[중고] 밤의 피크닉",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=272877854&partner=openAPI&start=api",
+    "author": "온다 리쿠 (지은이), 권남희 (옮긴이)",
+    "pubDate": "2005-09-05",
+    "description": "2005년 제26회 요시카와 에이지 문학상 신인상 수상작. 일본 서점 직원들이 선정하는 제2회 서점대상 수상작이기도 하다. 1회 수상작은 국내에도 소개되어 많은 사랑을 받은 . 어린 날의 떨림과 반짝거림, 가볍게 들떠 있다가도 곧 무겁게 가라앉곤 하는 10대 시절의 공기를 예리하게 그려냈다.",
+    "isbn": "U884964888",
+    "isbn13": "",
+    "priceSales": 3900,
+    "priceStandard": 8700,
+    "mallType": "USED",
+    "stockStatus": "",
+    "mileage": 0,
+    "cover": "https://image.aladin.co.kr/product/58/20/coversum/8937830892_2.jpg",
+    "categoryId": 50998,
+    "categoryName": "중고샵>국내도서>소설/시/희곡>일본소설>1950년대 이후 일본소설",
+    "publisher": "북폴리오",
+    "salesPoint": 7945,
+    "adult": false,
+    "customerReviewRank": 111000,
+    "subInfo": {
+      "usedType": "aladinUsed",
+      "newBookList": {
+        "newBook": {
+          "itemId": 582029,
+          "isbn": 8937830892,
+          "priceSales": 10800,
+          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=582029&partner=openAPI"
+        }
+      },
+      "usedList": [
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        }
+      
+      ]
+    }
+  },
+  {
+    "book_id":157555,
+    "title": "[중고] 밤의 피크닉",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=272877854&partner=openAPI&start=api",
+    "author": "온다 리쿠 (지은이), 권남희 (옮긴이)",
+    "pubDate": "2005-09-05",
+    "description": "2005년 제26회 요시카와 에이지 문학상 신인상 수상작. 일본 서점 직원들이 선정하는 제2회 서점대상 수상작이기도 하다. 1회 수상작은 국내에도 소개되어 많은 사랑을 받은 . 어린 날의 떨림과 반짝거림, 가볍게 들떠 있다가도 곧 무겁게 가라앉곤 하는 10대 시절의 공기를 예리하게 그려냈다.",
+    "isbn": "U884964888",
+    "isbn13": "",
+    "priceSales": 3900,
+    "priceStandard": 8700,
+    "mallType": "USED",
+    "stockStatus": "",
+    "mileage": 0,
+    "cover": "https://image.aladin.co.kr/product/58/20/coversum/8937830892_2.jpg",
+    "categoryId": 50998,
+    "categoryName": "중고샵>국내도서>소설/시/희곡>일본소설>1950년대 이후 일본소설",
+    "publisher": "북폴리오",
+    "salesPoint": 7945,
+    "adult": false,
+    "customerReviewRank": 111000,
+    "subInfo": {
+      "usedType": "aladinUsed",
+      "newBookList": {
+        "newBook": {
+          "itemId": 582029,
+          "isbn": 8937830892,
+          "priceSales": 10800,
+          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=582029&partner=openAPI"
+        }
+      },
+      "usedList": [
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        }
+      
+      ]
+    }
+  },
+  {
+    "book_id":155455,
+    "title": "[중고] 밤의 피크닉",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=272877854&partner=openAPI&start=api",
+    "author": "온다 리쿠 (지은이), 권남희 (옮긴이)",
+    "pubDate": "2005-09-05",
+    "description": "2005년 제26회 요시카와 에이지 문학상 신인상 수상작. 일본 서점 직원들이 선정하는 제2회 서점대상 수상작이기도 하다. 1회 수상작은 국내에도 소개되어 많은 사랑을 받은 . 어린 날의 떨림과 반짝거림, 가볍게 들떠 있다가도 곧 무겁게 가라앉곤 하는 10대 시절의 공기를 예리하게 그려냈다.",
+    "isbn": "U884964888",
+    "isbn13": "",
+    "priceSales": 3900,
+    "priceStandard": 8700,
+    "mallType": "USED",
+    "stockStatus": "",
+    "mileage": 0,
+    "cover": "https://image.aladin.co.kr/product/58/20/coversum/8937830892_2.jpg",
+    "categoryId": 50998,
+    "categoryName": "중고샵>국내도서>소설/시/희곡>일본소설>1950년대 이후 일본소설",
+    "publisher": "북폴리오",
+    "salesPoint": 7945,
+    "adult": false,
+    "customerReviewRank": 111000,
+    "subInfo": {
+      "usedType": "aladinUsed",
+      "newBookList": {
+        "newBook": {
+          "itemId": 582029,
+          "isbn": 8937830892,
+          "priceSales": 10800,
+          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=582029&partner=openAPI"
+        }
+      },
+      "usedList": [
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"aladin",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Gwanghwamoon",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongSan",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"Kyobo",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        },
+        {
+          "shop_id":"YeongPong",
+          "itemCount": 9,
+          "minPrice": 4400,
+          "link": "https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=582029&TabType=2&partner=openAPI"
+        }
+      
+      ]
+    }
+  },
+]
