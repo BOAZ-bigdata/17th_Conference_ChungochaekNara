@@ -3,18 +3,23 @@ import json
 import time
 from kafka import KafkaProducer
 
-with open('nested_data.json', 'r') as f:
+with open('../schema/new_data.json', 'r') as f:
     nested_data = json.load(f)
+
+ids = [i['id'] for i in nested_data]
 
 class DataUpdator:
     def on_data(self):
         while True:
-            n = random.randint(0, 1103)
-            update_data = {
-                "shop_id": nested_data[n]['shop_id'],
-                "delivery_time": random.randint(20, 60)
-            }
-
+            n = random.choice(ids)
+            # update_data = {
+            #     "id": n,
+            #     "customerReviewRank": random.randint(1, 100000)
+            # }
+            i = random.randint(0, 100000)
+            update_data = nested_data[i]
+            update_data['customerReviewRank'] = random.randint(1, 100000)
+            
             # time.sleep(random.randint(1, 3))
 
             producer.send("test", value=update_data)

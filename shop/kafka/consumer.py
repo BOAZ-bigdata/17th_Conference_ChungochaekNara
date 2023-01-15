@@ -2,22 +2,26 @@ from kafka import KafkaConsumer
 from elasticsearch import Elasticsearch
 import json
 import configparser
+from es_updator import upsert_bulk_to_index
+
+with open('../schema/new_data.json', 'r') as f:
+    nested_data = json.load(f)
 
 config = configparser.ConfigParser()
 config.read('config.ini')
 
 ES_URL = "http://localhost:9200"
 
-def updated_by_query(index, shop_id, delivery_time):
+def updated_by_query(index, id, customerReviewRank):
     es = Elasticsearch(ES_URL)
     body = {
             "script": {
-                "inline": f"ctx._source.delivery_time = {delivery_time}",
+                "inline": f"ctx._source.customerReviewRank = {customerReviewRank}",
             },
             "query": {
                 "term": {
-                    "shop_id": {
-                        "value": shop_id
+                    "id": {
+                        "value": id
                 }
             }
         }
@@ -28,13 +32,15 @@ def updated_by_query(index, shop_id, delivery_time):
 
 consumer = KafkaConsumer(
     'test',
-    # 'twitter_topic',
      bootstrap_servers=['localhost:9092'],
 )
+
+data = []
+
 for message in consumer:
     msg = json.loads(message.value.decode('utf-8'))
-    print(msg)
-    shop_id = msg['shop_id']
-    delivery_time = msg['delivery_time']
-    updated_by_query('shop', shop_id, delivery_time)
+    data.append(msg)
+    if len(data) >= 1000:
+        upsert_bulk_to_index('book', data)
+        data.clear()
 
