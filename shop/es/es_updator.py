@@ -5,7 +5,7 @@ from pprint import pprint
 from elasticsearch import Elasticsearch
 
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('../kafka/config.ini')
 
 UPSERT_DELAY_INTERVAL_SECOND = int(config['DEFAULT']['UPSERT_DELAY_INTERVAL_SECOND'])
 UPSERT_BATCH_SIZE = int(config['DEFAULT']['UPSERT_BATCH_SIZE'])
@@ -22,7 +22,7 @@ def upsert_bulk_to_es(data: List[dict], index_name:str, upsert_delay_interval: i
         for doc in data:
             temp = dict()
             temp["_index"] = index_name
-            temp["_id"] = doc["shop_id"]
+            temp["_id"] = doc["id"]
 
             temp["_source"] = doc
             result.append(temp)
@@ -66,10 +66,11 @@ def upsert_bulk_to_index(index, updated_data):
         print("Bye!")
 
 if __name__ == "__main__":
-    index_name = "shop" # 인덱스명
+    index_name = "book" # 인덱스명
 
-    with open('nested_data.json', 'r') as f:
+    with open('../schema/new_data.json', 'r') as f:
         updated_data = json.load(f)
 
     upsert_bulk_to_index(index_name, updated_data)
     print("Finish shop index update")
+
