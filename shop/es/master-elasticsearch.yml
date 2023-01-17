@@ -1,0 +1,16 @@
+cluster.name: es-cluster-1
+node.name: master # node-1, node-2
+path.data: ./data/
+path.logs: ./logs/
+network.host: 0.0.0.0
+http.port: 9202 # 9201, 9202
+transport.port: 9302 # 9301, 9302
+node.master: true # false, false
+node.data: true
+
+discovery.seed_hosts: ["127.0.0.1", "localhost:9300", "localhost:9301", "localhost:9302"]
+cluster.initial_master_nodes: ["master"]
+
+xpack.ml.enabled: false
+
+xpack.monitoring.collection.enabled: true
