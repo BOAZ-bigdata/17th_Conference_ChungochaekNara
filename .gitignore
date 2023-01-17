@@ -1,2 +1,3 @@
 *.json
 shop/schema/new_data.json
+__pycache__

@@ -4,7 +4,7 @@ import json
 import configparser
 from es_updator import upsert_bulk_to_index
 
-with open('../schema/new_data.json', 'r') as f:
+with open('../schema/split_data.json', 'r') as f:
     nested_data = json.load(f)
 
 config = configparser.ConfigParser()
@@ -31,7 +31,7 @@ def updated_by_query(index, id, customerReviewRank):
 
 
 consumer = KafkaConsumer(
-    'test',
+    'test1',
      bootstrap_servers=['localhost:9092'],
 )
 
@@ -41,6 +41,6 @@ for message in consumer:
     msg = json.loads(message.value.decode('utf-8'))
     data.append(msg)
     if len(data) >= 1000:
-        upsert_bulk_to_index('book', data)
+        upsert_bulk_to_index('book_split', data)
         data.clear()
 
