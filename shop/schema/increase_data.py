@@ -3,7 +3,7 @@ import random
 from pprint import pprint
 import copy
 
-with open('../schema/chonggo_schema.json', 'r') as f:
+with open('chonggo_schema.json', 'r') as f:
     data = json.load(f)[0]
 
 # print(data)
@@ -18,6 +18,6 @@ for j in range(100000):
 
 # pprint(new_data[:10])
 
-with open('../schema/new_data.json', 'w') as f:
+with open('new_data.json', 'w') as f:
     json.dump(new_data, f)
     
