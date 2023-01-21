@@ -53,7 +53,7 @@ def upsert_bulk_to_index(index, updated_data):
     if len(updated_data) > 0:
 
         print("============ Upsert Query Data Preview (First 10 docs)================")
-        pprint(updated_data[:10])
+        pprint(updated_data[:1])
 
         print("======================================================================")
         print(f"Start upserting to ES... total {len(updated_data)} docs")
@@ -66,7 +66,7 @@ def upsert_bulk_to_index(index, updated_data):
         print("Bye!")
 
 if __name__ == "__main__":
-    index_name = "book" # 인덱스명
+    index_name = "book_split" # 인덱스명
 
     with open('../schema/new_data.json', 'r') as f:
         updated_data = json.load(f)
