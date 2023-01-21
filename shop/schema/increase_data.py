@@ -3,7 +3,7 @@ import random
 from pprint import pprint
 import copy
 
-with open('chonggo_schema.json', 'r') as f:
+with open('chungo_schema.json', 'r') as f:
     data = json.load(f)[0]
 
 # print(data)
