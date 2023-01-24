@@ -1,6 +1,6 @@
 <h6 align="center"> 실시간 데이터를 이용한 </h6>
 
-<h1 aling="center"> Elasticsearch 인덱싱 성능 최적화 </h1>
+<h1 align="center"> Elasticsearch 인덱싱 성능 최적화 </h1>
 
 ## Introduction
 
