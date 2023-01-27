@@ -16,7 +16,7 @@
 
 ## Architecture
 
-![architecture](https://user-images.githubusercontent.com/66217855/214551669-34e5e327-fd87-45c5-b566-9e21c7040b00.png)
+![architecture](https://user-images.githubusercontent.com/66217855/215096293-f45ef27c-5c3f-4446-901c-fe4cb78eaa75.png)
 
 ## Indexing Optimization
 
