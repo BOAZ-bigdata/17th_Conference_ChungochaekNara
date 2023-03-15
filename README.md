@@ -4,7 +4,7 @@
 
 ## Introduction
 
-실시간 데이터를 이용한 Elastic 인덱싱 성능 최적화 실험 및 결과 보고
+실시간 데이터를 이용한 Elasticsearch 인덱싱 성능 최적화 실험 및 결과 보고
 
 ## Data
 알라딘 API 데이터 스키마 이용
